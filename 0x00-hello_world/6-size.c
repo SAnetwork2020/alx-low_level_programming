@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-printf("%luSize of a char\n", sizeof(char));
+printf("Size of a char: %lu byte(s)\n", sizeof(char));
 printf("%lusize of a int\n", sizeof(int));
 printf("%lusize of a long int\n", sizeof(long int));
 printf("%lusize of a long long int\n", sizeof(long long int));
