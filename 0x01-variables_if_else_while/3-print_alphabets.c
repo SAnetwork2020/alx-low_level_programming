@@ -5,7 +5,7 @@
 */
 int main()
 {
-int *al;
+char *al;
 for (al = "a"; al <= "z"; al++)
 putchar(al);
 for (al = "A"; al <= "Z"; al++)
