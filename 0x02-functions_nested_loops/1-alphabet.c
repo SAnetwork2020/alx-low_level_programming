@@ -1,11 +1,12 @@
+#include <stdio.h>
 #include "main.h"
 /**
- * main - Describe the main function
+ * print_alphabet - check description
+ * Description: ith printst the alphabet in lower case
  *
- * Return: 0
+ * Return: nothing.
  */
 void print_alphabet(void)
 {
-	for (char c = 'a'; c <= 'z'; c++)
-		_putchar(c);
+	printf("abcdefghijklmnopqrstuvwxyz");
 }
