@@ -18,7 +18,7 @@ int main(){
 	}
 
 	if (_isupper(var3) ) {
-		printf("var3 = |%c| is uppercase character\n", var 3);
+		printf("var3 = |%c| is uppercase character\n", var3);
 	} else {
 		printf("var3 = |%c| is not uppercase character\n", var3);
 	}
