@@ -1,4 +1,4 @@
-#include "main.h"
+
 int _isalpha(int c)
 {
 	char lower, upper;
@@ -7,12 +7,12 @@ int _isalpha(int c)
 	{
 		for (upper = 'A'; upper <= 'Z'; upper++)
 		{
-			if ( c == lowr || c == upper)
+			if ( c == lower || c == upper)
 			{
 				isletter = 1;
 			}
 		}
 	}
-	return (isletter)
+	return (isletter);
 }
 
