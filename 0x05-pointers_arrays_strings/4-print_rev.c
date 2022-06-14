@@ -13,3 +13,21 @@ for (index = len - 1; index >= 0; index--)
 _putchar(s[index]);
 _putchar('\n');
 }
+
+/**
+* _strlen - return the length of a string
+* @s: string to be return
+* 
+* Return: returns length;
+*/
+int _strlen(char *s)
+{
+int count, inc;
+inc = 0;
+for (count = 0; s[count] != '\0'; count++)
+{
+inc++;
+}
+return (inc);
+}
+
