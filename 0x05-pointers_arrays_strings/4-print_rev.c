@@ -16,7 +16,7 @@ _putchar('\n');
 
 /**
 *_strlen - return the length of a string
-*@s: string to be return 
+*@s: string to be return
 *Return: returns length;
 */
 int _strlen(char *s)
