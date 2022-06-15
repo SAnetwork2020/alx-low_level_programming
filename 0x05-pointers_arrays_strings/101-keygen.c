@@ -15,7 +15,7 @@ srand(time(0));
 while (x <= 2645)
 {
 c = rant() % 128;
-x += c:
+x += c;
 putchar(c);
 }
 putchar(2772 - x);
