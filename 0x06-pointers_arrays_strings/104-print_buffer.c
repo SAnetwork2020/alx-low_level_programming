@@ -14,6 +14,7 @@
 *@b: number of bytes
 *@size: size of the byte
 */
+
 void print_buffer(char *b, int size)
 {
 	int i = 0, j;
@@ -23,6 +24,7 @@ void print_buffer(char *b, int size)
 		printf('\n');
 		return;
 	}
+
 	while (i < size)
 	{
 		if (i % 10 == 0)
@@ -32,12 +34,19 @@ void print_buffer(char *b, int size)
 			if ((j < size) && ((j + 1) < size))
 				printf("%02x%02x: ", b[j], b[j + 1]);
 			else
+
 			{
+
 				while (++j <= i + 10)
+
 					printf(" ");
+
 				printf(" ");
+
 			}
+
 		}
+
 		for (j = i; j < i + 9 && j < size; j++)
 		{
 			if (b[j] >= 32 && b[j] <= 126)
